@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  //Mobile Responsive Side Navigation Bar
+  $('.sidenav').sidenav();
+  
+  //Type Writer
   var i = 0;
   var txt = 'Hi, I\'m Lydia Hu';
   var speed = 100;
@@ -12,4 +16,10 @@ $(document).ready(function(){
   }
 
   typeWriter();
+
+  //Parallax
+  $('.parallax').parallax();
+
+
+
 })

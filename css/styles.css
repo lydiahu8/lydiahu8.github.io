@@ -12,10 +12,53 @@ html {
   scroll-behavior: smooth;
 }
 
+nav {
+  font-weight: bold;
+}
+
+
+header {
+  background-image: url(../images/dandelion.jpg);
+  padding-bottom: 16rem;
+  padding-top: 7rem;
+  opacity: 0.8;
+}
+
+.intro {
+  color: white;
+  padding-left: 10rem;
+}
+
+#intro {
+  padding-bottom: 3rem;
+}
+
+.arrow {
+  margin-top: 8rem;
+  margin-left: 10rem;
+}
+
+.about-me {
+  color: white;
+}
+
+.projects {
+  color: white;
+}
 .icon {
   height: 2rem;
   width: 2rem;
   margin-top: 50%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.parallax-container {
+  height: 100%;
 }
 
 .page-footer {

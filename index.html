@@ -16,8 +16,9 @@
 
   <!-- Navigation Bar -->
   <nav>
-    <div class="nav-wrapper light-blue lighten-4 col s12">
+    <div id="nav-bar" class="nav-wrapper sticky teal lighten-4 col s12">
       <image src="https://i.imgur.com/7fI1sYd.png" class="brand-logo center" width=70 height=70></image>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li><a href="#AboutMe" class="nav-links">About Me</a></li>
         <li><a href="#Projects" class="nav-links">Projects</a></li>
@@ -49,27 +50,42 @@
     </div>
   </nav>
 
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#AboutMe" class="nav-links">About Me</a></li>
+    <li><a href="#Projects" class="nav-links">Projects</a></li>
+    <li><a class="nav-links">Resume</a></li>
+    <li><a href="#Contact" class="nav-links">Contact</a></li>
+    <li><a href="https://github.com/lydiahu8">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/lydiahu/">LinkedIn</a></li>
+    <li><a href="mailto: lydiahu8@gmail.com">Email</a></li>
+    <li><a href="https://angel.co/lydia-hu-2">AngelList</a></li>
+  </ul>
+
   <!-- Cover Page -->
-  <header class="container center-align">
-    <h1 id="intro"></h1>
-    <p>Based in San Francisco Bay Area.
-      <br>Software engineer by day. Food addict by night.
-      <br>Currently an associate instructor of software engineering.
-      <br> Always looking for new challenges to take on, so send them my way!
-      <br> Scroll down to take a peek at my projects!
-    </p>
-    <a href="#AboutMe" class="btn-floating waves-effect waves-light light-blue lighten-4"><i
-        class="material-icons">arrow_drop_down</i></a>
+  <header class="left-align">
+    <div class="intro">
+      <h1 id="intro"></h1>
+      <p>Based in San Francisco Bay Area.
+        <br>Software engineer by day. Food addict by night.
+        <br>Currently an associate instructor of software engineering.
+        <br> Always looking for new challenges to take on, so send them my way!
+        <br> Scroll down to take a peek at my projects!
+      </p>
+      <a href="#AboutMe" class="arrow btn-floating waves-effect waves-light transparent"><i
+          class="material-icons">arrow_drop_down</i></a>
+    </div>
   </header>
+
 
   <!-- About Me -->
   <main>
-    <div id="AboutMe" class="container">
+    <div id="AboutMe">
       <div class="parallax-container">
-        <div class="parallax"><img src="images/parallax2.jpg"></div>
+        <div class="parallax"><img src="images/gray-blue.jpg"></div>
+        <h3 class="center-align about-me">About Me</h3>
       </div>
-      <h1 class="center-align">About Me</h1>
-      <p>I am a motivated and enthusiastic software engineer who is looking to automate workflow processes within a
+      <p class="container center-align">I am a motivated and enthusiastic software engineer who is looking to automate workflow
+        processes within a
         workplace. I graduated from UC San Diego and have a tax background from working in public accounting for the
         past
         4 years. I found my passion for software engineering through the implementation of workflow automation within
@@ -77,17 +93,35 @@
         tax department. As a consumer of tax/accounting softwares, there were always flaws within each software that I
         personally wanted to make better. I decided to leave public accounting to begin my journey to becoming a
         software
-        engineer so that I can actually create software applications that automate workflow processes.</p>
-
-      <p>I am currently working as an Associate Instructor of Software Engineering at Hack Reactor @ Galvanize.</p>
+        engineer so that I can actually create software applications that automate workflow processes.
+        <br>
+        <br>I am currently working as an Associate Instructor of Software Engineering at Hack Reactor @
+        Galvanize.
+      </p>
     </div>
 
     <!-- Projects -->
-    <div id="Projects" class="container">
+    <div id="Projects">
       <div class="parallax-container">
-        <div class="parallax"><img src="images/parallax2.jpg"></div>
+        <div class="parallax"><img src="images/blur-blue.jpg"></div>
+        <h3 class="center-align projects">Projects</h3>
       </div>
-      <h1 class="center-align">Projects</h1>
+
+      <h3>TableForFive</h3>
+      <h3>SaleBoat</h3>
+      <h3>Quid-Dit</h3>
+      <h3>TableForFive</h3>
+      <h3>SaleBoat</h3>
+      <h3>Quid-Dit</h3>
+      <h3>TableForFive</h3>
+      <h3>SaleBoat</h3>
+      <h3>Quid-Dit</h3>
+      <h3>TableForFive</h3>
+      <h3>SaleBoat</h3>
+      <h3>Quid-Dit</h3>
+      <h3>TableForFive</h3>
+      <h3>SaleBoat</h3>
+      <h3>Quid-Dit</h3>
       <h3>TableForFive</h3>
       <h3>SaleBoat</h3>
       <h3>Quid-Dit</h3>
@@ -95,7 +129,7 @@
   </main>
 
   <!-- Footer -->
-  <footer class="page-footer light-blue lighten-4">
+  <footer class="page-footer teal lighten-4">
     <div class="container center-align">© 2019 Lydia Hu</div>
   </footer>
 
