@@ -1,11 +1,12 @@
-$(document).ready(function(){
+$(document).ready(function () {
+
   //Mobile Responsive Side Navigation Bar
   $('.sidenav').sidenav();
-  
+
   //Type Writer
   var i = 0;
   var txt = 'Hi, I\'m Lydia Hu';
-  var speed = 100;
+  var speed = 150;
 
   function typeWriter() {
     if (i < txt.length) {
@@ -19,7 +20,5 @@ $(document).ready(function(){
 
   //Parallax
   $('.parallax').parallax();
-
-
 
 })
