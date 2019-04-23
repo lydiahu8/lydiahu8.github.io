@@ -52,10 +52,40 @@ header {
 
 .about-me {
   color: white;
+  font-weight: bold;
+  margin-top: 6rem;
+}
+
+#aboutMe {
+  height: 100vh;
+  width: 100vw;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-aboutme {
+  margin-top: 3%;
+  padding: 3% 10%;
+}
+
+.profile-pic {
+  height: 20rem;
+  margin-left: 10%;
+  margin-top: 3%;
 }
 
 .projects {
   color: white;
+  font-weight: bold;
+  margin-top: 6rem;
+}
+
+#projects {
+  height: 100vh;
+  width: 100vw;
 }
 
 .icon {
@@ -91,6 +121,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .parallax-container {
