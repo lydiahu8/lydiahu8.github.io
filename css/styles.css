@@ -44,6 +44,7 @@ header {
   margin-left: 10rem;
   height: 4rem;
   width: 4rem;
+  border:rgb(96, 151, 151) 1px solid;
 }
 
 .arrow {
@@ -57,7 +58,7 @@ header {
 }
 
 #aboutMe {
-  height: 100vh;
+  height: calc(10rem + 100vh);
   width: 100vw;
 }
 
@@ -67,14 +68,72 @@ header {
 }
 
 .info-aboutme {
-  margin-top: 3%;
   padding: 3% 10%;
+  color: rgb(0, 0, 0);
+  margin-top: 3%;
 }
 
 .profile-pic {
   height: 20rem;
   margin-left: 10%;
   margin-top: 3%;
+}
+
+.other-title {
+  padding-bottom: 1.6rem;
+}
+
+.frontend,
+.backend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skill-col {
+  padding: 0 7% 0 7%;
+}
+
+.skill {
+  color: rgb(56, 85, 82);
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+h5 {
+  color: rgb(91, 93, 93);
+  font-weight: bold;
+}
+
+.collapsible-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.collapsible-header {
+  border: rgba(104, 102, 102, 0.383) 1px solid;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: center;
+}
+
+.build {
+  padding-top: 0.5rem;
+}
+
+.collapsible-body {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(104, 102, 102, 0.383);
+  border-left: 1px solid rgba(104, 102, 102, 0.383);
+  border-right: 1px solid rgba(104, 102, 102, 0.383);
 }
 
 .projects {
@@ -113,7 +172,7 @@ header {
   color: white;
 }
 
-.row {
+.contact-row {
   margin-left: 25%;
 }
 

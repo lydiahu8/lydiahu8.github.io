@@ -1,8 +1,11 @@
 $(document).ready(function () {
-
+  
   //Mobile Responsive Side Navigation Bar
   $('.sidenav').sidenav();
-
+  
+  //Collapsible Skills
+  $('.collapsible').collapsible();
+  
   //Type Writer
   var i = 0;
   var txt = 'Hi, I\'m Lydia Hu';
@@ -20,5 +23,6 @@ $(document).ready(function () {
 
   //Parallax
   $('.parallax').parallax();
+
 
 })
