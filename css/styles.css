@@ -210,6 +210,10 @@ h5 {
   font-size: 1rem;
 }
 
+#contact {
+  width: 100vw;
+}
+
 .contact {
   font-weight: bold;
   color: white;
