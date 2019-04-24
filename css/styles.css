@@ -44,7 +44,7 @@ header {
   margin-left: 10rem;
   height: 4rem;
   width: 4rem;
-  border:rgb(96, 151, 151) 1px solid;
+  border: rgb(96, 151, 151) 1px solid;
 }
 
 .arrow {
@@ -58,13 +58,14 @@ header {
 }
 
 #aboutMe {
-  height: calc(10rem + 100vh);
+  height: auto;
   width: 100vw;
 }
 
 .info {
   display: flex;
   flex-direction: row;
+  height: 100vh;
 }
 
 .info-aboutme {
@@ -74,7 +75,7 @@ header {
 }
 
 .profile-pic {
-  height: 20rem;
+  height: 32rem;
   margin-left: 10%;
   margin-top: 3%;
 }
@@ -100,6 +101,11 @@ header {
   font-weight: normal;
 }
 
+
+.aboutskills {
+  padding: 7%;
+}
+
 h5 {
   color: rgb(91, 93, 93);
   font-weight: bold;
@@ -109,7 +115,7 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 10%;
   font-weight: bold;
   color: white;
   font-size: 1.5rem;
@@ -123,6 +129,10 @@ h5 {
 .skills-title {
   display: flex;
   justify-content: center;
+}
+
+.skills-div {
+  margin-top: 3rem;
 }
 
 .build {
@@ -145,6 +155,39 @@ h5 {
 #projects {
   height: 100vh;
   width: 100vw;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 3rem;
+}
+
+.waitonme {
+  height: 20rem;
+}
+
+.card-fe {
+  width: 20rem;
+  background-color: #b7e2ff71;
+  padding: 5px;
+}
+
+.quiddit {
+  width: 37.5rem;
+}
+
+.card-mvp {
+  width: 37.5rem;
+  background-color: #b7e2ff71;
+  padding: 5px;
+  margin-left: 3rem;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .icon {
