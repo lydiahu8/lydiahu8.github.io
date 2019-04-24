@@ -28,8 +28,9 @@ nav {
 header {
   background-image: url(../images/dandelion.jpg);
   padding-top: 7rem;
-  height: calc(6rem + 100vh);
+  height: 60rem;
   opacity: 0.6;
+  background-repeat: no-repeat;
 }
 
 .intro {
