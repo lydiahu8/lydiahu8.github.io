@@ -21,7 +21,6 @@ header {
   background-image: url(../images/dandelion.jpg);
   padding-top: 7rem;
   height: 100vh;
-  width: 100vw;
   opacity: 0.6;
 }
 
@@ -59,7 +58,6 @@ header {
 
 #aboutMe {
   height: auto;
-  width: 100vw;
 }
 
 .info {
@@ -154,7 +152,6 @@ h5 {
 
 #projects {
   height: 100vh;
-  width: 100vw;
 }
 
 .project-container {
@@ -208,10 +205,6 @@ h5 {
   position: absolute;
   margin-top: 1.25rem;
   font-size: 1rem;
-}
-
-#contact {
-  width: 100vw;
 }
 
 .contact {
