@@ -20,7 +20,7 @@ nav {
 header {
   background-image: url(../images/dandelion.jpg);
   padding-top: 7rem;
-  height: 100vh;
+  height: calc(6rem + 100vh);
   opacity: 0.6;
 }
 
@@ -158,24 +158,35 @@ h5 {
   display: flex;
   flex-direction: row;
   padding: 3rem 3rem;
+  margin-top: 3rem;
 }
 
 .waitonme {
-  height: 20rem;
+  width: 25rem;
 }
 
 .card-fe {
-  width: 20rem;
+  width: 25rem;
   background-color: #b7e2ff71;
   padding: 5px;
 }
 
 .quiddit {
-  width: 37.5rem;
+  width: 26rem;
 }
 
 .card-mvp {
-  width: 37.5rem;
+  width: 25.25rem;
+  background-color: #b7e2ff71;
+  padding: 5px;
+  margin-left: 3rem;
+}
+
+.saleboat {
+  height: 13.75rem;
+}
+
+.card-be {
   background-color: #b7e2ff71;
   padding: 5px;
   margin-left: 3rem;
