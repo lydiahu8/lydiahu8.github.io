@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.parallax-container {
+  height: 100%;
+}
+
 /******* NAVIGATION BAR *******/
 
 nav {
@@ -23,23 +27,28 @@ nav {
   font-weight: bold;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 /******* HEADER SECTION *******/
 
 header {
-  background-image: url(../images/dandelion.jpg);
   padding-top: 7rem;
-  height: 60rem;
-  opacity: 0.6;
-  background-repeat: no-repeat;
+  height: 55rem;
 }
 
 .intro {
   color: white;
-  padding-left: 7rem;
+  padding-left: 5%;
+  margin: 5% 0;
 }
 
 #intro {
-  padding-bottom: 3rem;
+  margin: 4% 0;
   font-size: 5rem;
   font-family: 'Roboto', Sans-Serif;
 }
@@ -50,8 +59,8 @@ header {
 }
 
 .arrow-circle {
-  margin-top: 5rem;
-  margin-left: 10rem;
+  margin-left: 6%;
+  margin-top: 3%;
   height: 4rem;
   width: 4rem;
   border: rgb(96, 151, 151) 1px solid;
@@ -59,6 +68,18 @@ header {
 
 .arrow {
   padding-top: 0.7rem;
+}
+
+.header-parallax {
+  opacity: 0.6;
+}
+
+/* DESKTOPS */
+
+@media screen and (min-width: 1440px) {
+  header {
+    height: 60rem;
+  }
 }
 
 /******* ABOUT ME SECTION *******/
@@ -71,13 +92,13 @@ header {
 }
 
 #aboutMe {
-  height: auto;
+  height: 100%;
 }
 
 .info {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+
 }
 
 .info-aboutme {
@@ -164,24 +185,31 @@ h5 {
 }
 
 
+/* DESKTOPS */
+
+@media screen and (min-width: 1440px) {
+  #aboutMe {
+    height: 60rem;
+  }
+}
+
 /******* PROJECTS SECTION *******/
 
 .projects {
   color: white;
   font-weight: bold;
-  margin-top: 6rem;
+  margin: 7% 0 0 0;
   font-family: 'Roboto', Sans-Serif;
 }
 
 #projects {
-  height: 100vh;
+  height: 55rem;
 }
 
 .project-container {
   display: flex;
   flex-direction: row;
-  padding: 3rem 3rem;
-  margin-top: 3rem;
+  padding: 5%;
 }
 
 .project-title {
@@ -198,40 +226,62 @@ p {
 }
 
 .waitonme {
-  width: 25rem;
+  width: 100%;
 }
 
 .card-fe {
-  width: 25rem;
+  width: 100%;
   background-color: #b7e2ff71;
-  padding: 5px;
+  padding: 1%;
 }
 
-.quiddit {
-  width: 26rem;
-}
-
-.card-mvp {
-  width: 25.25rem;
-  background-color: #b7e2ff71;
-  padding: 5px;
-  margin-left: 3rem;
+.title-fe {
+  margin: 16% 0 5% 0;
 }
 
 .saleboat {
-  height: 13.75rem;
+  width: 100%;
+  margin: 10% 0;
 }
 
 .card-be {
+  width: 100%;
   background-color: #b7e2ff71;
-  padding: 5px;
-  margin-left: 3rem;
+  padding: 0 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.title-be {
+  margin: 13% 0 5% 0;
+}
+
+.quiddit {
+  width: 100%;
+}
+
+.card-mvp {
+  width: 100%;
+  background-color: #b7e2ff71;
+  padding: 1%;
+}
+
+.title-mvp {
+  margin: 16% 0 5% 0;
 }
 
 .card-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+/* DESKTOPS */
+
+@media screen and (min-width: 1440px) {
+  #projects {
+    height: 60rem;
+  }
 }
 
 /******* CONTACT SECTION *******/
@@ -243,16 +293,16 @@ p {
 }
 
 .contact-icon {
-  height: 2rem;
-  width: 2rem;
-  margin-top: 1rem;
+  height: 15%;
+  width: 18%;
+  margin-top: 2%;
 }
 
 .contact-info {
   color: black;
-  margin-left: 1rem;
+  margin-left: 2%;
   position: absolute;
-  margin-top: 1.25rem;
+  margin-top: 1.5%;
   font-size: 1rem;
   font-family: 'Cabin', Sans-Serif;
 }
@@ -265,17 +315,6 @@ p {
 
 .contact-row {
   margin-left: 25%;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
-.parallax-container {
-  height: 100%;
 }
 
 /******* FOOTER SECTION *******/
