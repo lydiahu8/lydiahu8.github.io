@@ -451,11 +451,439 @@ i.build {
 
 /* DESKTOPS */
 
-/* @media screen and (min-width: 1440px) {
-  #aboutMe {
-    height: 60rem;
+@media screen and (max-width: 2560px) {
+  .about-me {
+    margin-top: 5%;
+    font-size: 6rem;
   }
-} */
+  
+  .aboutskills {
+    padding: 4% 7% 7% 7%;
+  }
+  
+  .info-aboutme {
+    font-size: 2rem;
+  }
+  
+  .profile-pic {
+    height: 75rem;
+    margin-bottom: 3%;
+  }
+
+  .collapsible-skills {
+    margin-top: 4%;
+    font-size: 3rem;
+  }
+  
+  .collapsible-header {
+    padding: 10% 20% 10% 20%;
+    width: 20rem;
+    border: 0;
+    margin: 0 10% 0 10%;
+  }
+  
+  i.build {
+    padding-top: 5%;
+    margin-right: 30%;
+    font-size: 3rem;
+  }
+
+  .collapsible-body {
+    width: 80rem;
+    padding: 5% 1% 1% 1%;
+    border: 1px solid rgba(104, 102, 102, 0.383);
+  }
+  
+  h5 {
+    font-size: 3rem;
+  }
+
+  .skill {
+    font-size: 2rem;
+  }
+    
+  .other-title {
+    padding-bottom: 40%;
+    margin-top: 11%;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .about-me {
+    margin-top: 5%;
+    font-size: 5rem;
+  }
+  
+  .aboutskills {
+    padding: 4% 7% 7% 7%;
+  }
+  
+  .info-aboutme {
+    font-size: 1.5rem;
+  }
+
+  .info {
+    margin-bottom: 5%;
+  }
+  
+  .profile-pic {
+    height: 50rem;
+    margin-bottom: 3%;
+  }
+
+  .collapsible-skills {
+    margin-top: 4%;
+    font-size: 2rem;
+  }
+  
+  .collapsible-header {
+    padding: 10% 20% 10% 5%;
+    width: 10rem;
+    border: 0;
+    /* margin: 0 10% 0 10%; */
+  }
+  
+  i.build {
+    padding-top: 5%;
+    margin-right: 10%;
+    font-size: 2rem;
+  }
+
+  .collapsible-body {
+    width: 55rem;
+    padding: 5% 1% 1% 1%;
+    border: 1px solid rgba(104, 102, 102, 0.383);
+  }
+  
+  h5 {
+    font-size: 2rem;
+  }
+
+  .skill {
+    font-size: 1.5rem;
+  }
+    
+  .other-title {
+    padding-bottom: 40%;
+    margin-top: 12%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .about-me {
+    margin-top: 6%;
+    font-size: 4rem;
+  }
+  
+  .profile-pic {
+    height: 40rem;
+    margin-bottom: 3%;
+  }
+
+  .aboutskills {
+    padding: 4% 7% 7% 7%;
+  }
+  
+  .info-aboutme {
+    font-size: 1.25rem;
+  }
+
+  .info {
+    margin-bottom: 6%;
+  }
+
+  .collapsible-skills {
+    margin-top: 4%;
+    font-size: 1.5rem;
+  }
+  
+  .collapsible-header {
+    padding: 10% 20% 10% 5%;
+    width: 8rem;
+    border: 0;
+  }
+  
+  i.build {
+    padding-top: 5%;
+    margin-right: 10%;
+    font-size: 1.5rem;
+  }
+
+  .collapsible-body {
+    width: 45rem;
+    padding: 5% 1% 1% 1%;
+    border: 1px solid rgba(104, 102, 102, 0.383);
+  }
+  
+  h5 {
+    font-size: 1.75rem;
+  }
+
+  .skill {
+    font-size: 1.25rem;
+  }
+    
+  .other-title {
+    padding-bottom: 40%;
+    margin-top: 16%;
+  }
+}
+
+/* LAPTOPS & DESKTOPS */
+
+@media screen and (max-width: 1280px) {
+  .about-me {
+    margin-top: 7%;
+    font-size: 3rem;
+  }
+  
+  .profile-pic {
+    height: 30rem;
+    margin-bottom: 3%;
+  }
+
+  .aboutskills {
+    padding: 4% 7% 7% 7%;
+  }
+  
+  .info-aboutme {
+    font-size: 1rem;
+  }
+
+  .info {
+    margin-bottom: 6%;
+  }
+
+  .collapsible-skills {
+    margin-top: 4%;
+    font-size: 1rem;
+  }
+  
+  .collapsible-header {
+    padding: 10% 20% 10% 5%;
+    width: 6rem;
+    border: 0;
+    margin: 0;
+  }
+  
+  i.build {
+    padding-top: 5%;
+    margin-right: 7%;
+    font-size: 1rem;
+  }
+
+  .collapsible-body {
+    width: 45rem;
+    padding: 5% 1% 1% 1%;
+    border: 1px solid rgba(104, 102, 102, 0.383);
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  .skill {
+    font-size: 1rem;
+  }
+    
+  .other-title {
+    padding-bottom: 17%;
+    margin-top: 12%;
+  }
+}
+
+/* TABLETS & IPADS */
+
+@media screen and (max-width: 1024px) {
+  .about-me {
+    margin-top: 9%;
+    font-size: 2.5rem;
+  }
+  
+  .profile-pic {
+    height: 30rem;
+    margin-bottom: 3%;
+  }
+
+  .aboutskills {
+    padding: 3% 7% 7% 7%;
+  }
+  
+  .info-aboutme {
+    font-size: .9rem;
+  }
+
+  .info {
+    margin-bottom: 6%;
+  }
+
+  .collapsible-skills {
+    margin-top: 4%;
+    font-size: 1rem;
+  }
+  
+  .collapsible-header {
+    padding: 10% 20% 10% 5%;
+    width: 6rem;
+    border: 0;
+    margin: 0;
+  }
+  
+  i.build {
+    padding-top: 5%;
+    margin-right: 7%;
+    font-size: 1rem;
+  }
+
+  .collapsible-body {
+    width: 30rem;
+    padding: 5% 1% 1% 1%;
+    border: 1px solid rgba(104, 102, 102, 0.383);
+  }
+  
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  .skill {
+    font-size: 0.9rem;
+  }
+    
+  .other-title {
+    padding-bottom: 40%;
+    margin-top: 25%;
+  }
+}
+
+/* MOBILE (LANDSCAPE) */
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    margin-top: 12%;
+    font-size: 2.25rem;
+  }
+  
+  .profile-pic {
+    height: 27rem;
+    margin-bottom: 9%;
+  }
+
+  .aboutskills {
+    padding: 3% 7% 7% 7%;
+  }
+  
+  .info-aboutme {
+    font-size: .75rem;
+  }
+
+  .info {
+    margin-bottom: 11%;
+  }
+
+  .collapsible-skills {
+    margin-top: 3%;
+    font-size: .8rem;
+  }
+  
+  .collapsible-header {
+    padding: 10% 20% 10% 5%;
+    width: 5rem;
+    border: 0;
+    margin: 0;
+  }
+  
+  i.build {
+    padding-top: 5%;
+    margin-right: 5%;
+    font-size: .8rem;
+  }
+
+  .collapsible-body {
+    width: 20rem;
+    padding: 5% 1% 1% 1%;
+    border: 1px solid rgba(104, 102, 102, 0.383);
+  }
+  
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  .skill {
+    font-size: 0.8rem;
+  }
+    
+  .other-title {
+    padding-bottom: 53%;
+    margin-top: 40%;
+  }
+}
+
+/* MOBILE (PORTRAIT) */
+
+@media screen and (max-width: 480px) {
+  .about-me {
+    margin-top: 12%;
+    font-size: 2.25rem;
+  }
+  
+  .profile-pic {
+    height: 25rem;
+    width: 20rem;
+    margin-bottom: 2%;
+    margin-left: 20%;
+  }
+
+  .aboutskills {
+    padding: 3% 7% 7% 7%;
+  }
+  
+  .info-aboutme {
+    font-size: .75rem;
+  }
+
+  .info {
+    margin-bottom: 11%;
+    flex-direction: column;
+  }
+
+  .collapsible-skills {
+    margin-top: 3%;
+    font-size: .8rem;
+  }
+  
+  .collapsible-header {
+    padding: 10% 20% 10% 5%;
+    width: 5rem;
+    border: 0;
+    margin: 0;
+  }
+  
+  i.build {
+    padding-top: 5%;
+    margin-right: 5%;
+    font-size: .8rem;
+  }
+
+  .collapsible-body {
+    width: 25rem;
+    padding: 5% 1% 1% 1%;
+    border: 1px solid rgba(104, 102, 102, 0.383);
+  }
+  
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  .skill {
+    font-size: 0.8rem;
+  }
+    
+  .other-title {
+    padding-bottom: 33%;
+    margin-top: 35%;
+  }
+}
+
 
 /******* PROJECTS SECTION *******/
 
@@ -541,13 +969,44 @@ p {
   justify-content: center;
 }
 
+
 /* DESKTOPS */
 
-/* @media screen and (min-width: 1440px) {
-  #projects {
-    height: 60rem;
-  }
-} */
+@media screen and (max-width: 2560px) {
+  
+}
+
+@media screen and (max-width: 1920px) {
+  
+}
+
+@media screen and (max-width: 1600px) {
+  
+}
+
+/* LAPTOPS & DESKTOPS */
+
+@media screen and (max-width: 1280px) {
+ 
+}
+
+/* TABLETS & IPADS */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* MOBILE (LANDSCAPE) */
+
+@media screen and (max-width: 768px) {
+  
+}
+
+/* MOBILE (PORTRAIT) */
+
+@media screen and (max-width: 480px) {
+  
+}
 
 /******* CONTACT SECTION *******/
 
@@ -574,6 +1033,45 @@ p {
 
 .contact-row {
   margin-left: 25%;
+}
+
+
+/* DESKTOPS */
+
+@media screen and (max-width: 2560px) {
+  
+}
+
+@media screen and (max-width: 1920px) {
+  
+}
+
+@media screen and (max-width: 1600px) {
+  
+}
+
+/* LAPTOPS & DESKTOPS */
+
+@media screen and (max-width: 1280px) {
+ 
+}
+
+/* TABLETS & IPADS */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* MOBILE (LANDSCAPE) */
+
+@media screen and (max-width: 768px) {
+  
+}
+
+/* MOBILE (PORTRAIT) */
+
+@media screen and (max-width: 480px) {
+  
 }
 
 /******* FOOTER SECTION *******/
