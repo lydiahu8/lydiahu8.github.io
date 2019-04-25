@@ -40,6 +40,58 @@ nav {
   z-index: 100;
 }
 
+@media screen and (max-width: 2560px) {
+  .nav-links {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+
+  .icon {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.75rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .nav-links {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.75rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .nav-links {
+    font-size: 1.25rem;
+    margin: 0 0.8rem;
+  }
+
+  .icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.75rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    font-size: 1rem;
+    margin: 0 0.6rem;
+  }
+
+  .icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.8rem 1rem 0 1rem;
+  }
+}
+
 /******* HEADER SECTION *******/
 
 header {
@@ -84,11 +136,225 @@ header {
 
 /* DESKTOPS */
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (max-width: 2560px) {
   header {
-    height: 60rem;
+    padding-top: 2%;
   }
-} */
+
+  #intro {
+    font-size: 12rem;
+  }
+  
+  .header-intro {
+    font-size: 3rem;
+  }
+
+  .arrow-circle {
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 10rem;
+    width: 10rem;
+  }
+  
+  .arrow {
+    padding-top: 40%;
+  }
+
+  i.arrow {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  header {
+    padding-top: 2%;
+  }
+
+  #intro {
+    font-size: 9rem;
+  }
+  
+  .header-intro {
+    font-size: 2rem;
+  }
+
+  .arrow-circle {
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 8rem;
+    width: 8rem;
+  }
+  
+  .arrow {
+    padding-top: 35%;
+  }
+
+  i.arrow {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  header {
+    padding-top: 2%;
+  }
+
+  #intro {
+    font-size: 7rem;
+  }
+  
+  .header-intro {
+    font-size: 1.5rem;
+  }
+
+  .arrow-circle {
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .arrow {
+    padding-top: 30%;
+  }
+
+  i.arrow {
+    font-size: 3rem;
+  }
+}
+
+/* LAPTOPS & DESKTOPS */
+
+@media screen and (max-width: 1280px) {
+  header {
+    padding-top: 2%;
+  }
+
+  #intro {
+    font-size: 6rem;
+  }
+  
+  .header-intro {
+    font-size: 1.25rem;
+  }
+
+  .arrow-circle {
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  .arrow {
+    padding-top: 25%;
+  }
+
+  i.arrow {
+    font-size: 3rem;
+  }
+}
+
+/* TABLETS & IPADS */
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding-top: 7%;
+  }
+
+  #intro {
+    font-size: 5rem;
+  }
+  
+  .header-intro {
+    font-size: 1.1rem;
+  }
+
+  .arrow-circle {
+    margin-left: 9%;
+    margin-top: 5%;
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .arrow {
+    padding-top: 20%;
+  }
+
+  i.arrow {
+    font-size: 2.5rem;
+  }
+}
+
+/* MOBILE (LANDSCAPE) */
+
+@media screen and (max-width: 768px) {
+  header {
+    padding-top: 10%;
+  }
+
+  #intro {
+    font-size: 4rem;
+  }
+
+  .intro {
+    margin: 15% 0 20% 0;
+  }
+  
+  .header-intro {
+    font-size: 1.1rem;
+  }
+
+  .arrow-circle {
+    margin-left: 12%;
+    margin-top: 7%;
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .arrow {
+    padding-top: 20%;
+  }
+
+  i.arrow {
+    font-size: 2.5rem;
+  }
+}
+
+/* MOBILE (PORTRAIT) */
+
+@media screen and (max-width: 480px) {
+  header {
+    padding-top: 10%;
+  }
+
+  #intro {
+    font-size: 4rem;
+  }
+
+  .intro {
+    margin: 25% 0 40% 0;
+  }
+  
+  .header-intro {
+    font-size: 1.1rem;
+    margin-top: 13%;
+  }
+
+  .arrow-circle {
+    margin-left: 25%;
+    margin-top: 7%;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  
+  .arrow {
+    padding-top: 10%;
+  }
+
+  i.arrow {
+    font-size: 1.75rem;
+  }
+}
 
 /******* ABOUT ME SECTION *******/
 
