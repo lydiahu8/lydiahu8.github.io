@@ -27,6 +27,12 @@ nav {
   font-weight: bold;
 }
 
+.icon {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 1rem;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -37,68 +43,70 @@ nav {
 /******* HEADER SECTION *******/
 
 header {
-  padding-top: 7rem;
-  height: 55rem;
+  padding-top: 8%;
+  height: auto;
 }
 
 .intro {
   color: white;
   padding-left: 5%;
-  margin: 5% 0;
+  margin: 10% 0;
 }
 
 #intro {
-  margin: 4% 0;
+  margin: 6% 0;
   font-size: 5rem;
   font-family: 'Roboto', Sans-Serif;
+  font-weight: 500;
 }
 
 .header-intro {
   font-size: 1.25rem;
   font-family: 'Cabin', Sans-Serif;
+  font-weight: 500;
 }
 
 .arrow-circle {
   margin-left: 6%;
   margin-top: 3%;
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
   border: rgb(96, 151, 151) 1px solid;
 }
 
 .arrow {
-  padding-top: 0.7rem;
+  padding-top: 25%;
 }
 
 .header-parallax {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 /* DESKTOPS */
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   header {
     height: 60rem;
   }
-}
+} */
 
 /******* ABOUT ME SECTION *******/
 
 .about-me {
   color: white;
-  margin-top: 6rem;
+  margin-top: 7%;
   font-family: 'Roboto', Sans-Serif;
   font-weight: bold;
 }
 
 #aboutMe {
-  height: 100%;
+  height: auto;
 }
 
 .info {
   display: flex;
   flex-direction: row;
-
+  margin-bottom: 3%;
 }
 
 .info-aboutme {
@@ -115,14 +123,8 @@ header {
 }
 
 .other-title {
-  padding-bottom: 1.6rem;
-}
-
-.frontend,
-.backend {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding-bottom: 45%;
+  margin-top: 25%;
 }
 
 .skill-col {
@@ -136,9 +138,8 @@ header {
   font-family: 'Cabin', Sans-Serif;
 }
 
-
 .aboutskills {
-  padding: 7%;
+  padding: 8%;
 }
 
 h5 {
@@ -151,15 +152,16 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 7%;
   font-weight: bold;
-  color: white;
   font-size: 1.5rem;
   text-align: center;
+  color: white;
 }
 
 .collapsible-header {
   border: rgba(104, 102, 102, 0.383) 1px solid;
+  margin-right: 0;
 }
 
 .skills-title {
@@ -169,47 +171,44 @@ h5 {
   font-weight: bold;
 }
 
-.skills-div {
-  margin-top: 3rem;
-}
-
-.build {
-  padding-top: 0.5rem;
+i.build {
+  padding-top: 3%;
+  margin-right: 10%;
 }
 
 .collapsible-body {
-  padding: 1rem;
+  padding: 1%;
   border-bottom: 1px solid rgba(104, 102, 102, 0.383);
   border-left: 1px solid rgba(104, 102, 102, 0.383);
   border-right: 1px solid rgba(104, 102, 102, 0.383);
 }
 
-
 /* DESKTOPS */
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   #aboutMe {
     height: 60rem;
   }
-}
+} */
 
 /******* PROJECTS SECTION *******/
 
 .projects {
   color: white;
   font-weight: bold;
-  margin: 7% 0 0 0;
+  margin: 8% 0 0 0;
   font-family: 'Roboto', Sans-Serif;
 }
 
 #projects {
-  height: 55rem;
+  height: auto;
 }
 
 .project-container {
   display: flex;
   flex-direction: row;
-  padding: 5%;
+  padding: 4%;
+  margin: 6% 0;
 }
 
 .project-title {
@@ -278,19 +277,13 @@ p {
 
 /* DESKTOPS */
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   #projects {
     height: 60rem;
   }
-}
+} */
 
 /******* CONTACT SECTION *******/
-
-.icon {
-  height: 2rem;
-  width: 2rem;
-  margin-top: 1rem;
-}
 
 .contact-icon {
   height: 15%;
