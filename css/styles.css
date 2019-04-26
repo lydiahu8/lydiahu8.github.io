@@ -304,7 +304,7 @@ p {
 
 /* DESKTOPS */
 
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 2560px) {
 
   /* NAV BAR */
 
@@ -483,7 +483,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
 
   /* HEADER */
 
@@ -659,7 +659,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
 
   /* NAV BAR */
 
@@ -711,7 +711,7 @@ p {
   }
 
   .profile-pic {
-    height: 35rem;
+    height: 42rem;
     margin-bottom: 3%;
   }
 
@@ -850,7 +850,7 @@ p {
 
 /* LAPTOPS & DESKTOPS */
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
 
   /* NAV BAR */
   .nav-links {
@@ -962,7 +962,7 @@ p {
   }
 
   .project-container {
-    margin: 4% 0 10% 0;
+    margin: 0 0 10% 0;
   }
 
   h4 {
