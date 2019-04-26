@@ -1342,38 +1342,258 @@ p {
 
 @media screen and (max-width: 2560px) {
   
+  .contact-info {
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+    font-size: 2rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    font-size: 5rem;
+    margin-bottom: 2%;
+  }
+  
+  .contact-row {
+    margin-left: 25%;
+  }
+
+  span.contact-details {
+    margin: 0 8%;
+  }
+
+  .contact-wrap {
+    margin-left: 23%;
+  }
+
+  .footer-text {
+    font-size: 2rem;
+  }
 }
 
+
 @media screen and (max-width: 1920px) {
+  .contact-icon {
+    height: 15%;
+    width: 18%;
+    margin-top: 2%;
+  }
   
+  .contact-info {
+    margin-left: 1.5%;
+    margin-top: 1.2%;
+    font-size: 2rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    font-size: 5rem;
+    margin-bottom: 2%;
+  }
+  
+  .contact-row {
+    margin-left: 8%;
+  }
+
+  span.contact-details {
+    margin: 0 8%;
+  }
+
+  .contact-wrap {
+    margin-left: 23%;
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 1600px) {
+  .contact-icon {
+    height: 10%;
+    width: 15%;
+    margin-top: 2%;
+  }
   
+  .contact-info {
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    font-size: 1.5rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    font-size: 4rem;
+    margin-bottom: 2%;
+  }
+  
+  .contact-row {
+    margin-left: 8%;
+  }
+
+  span.contact-details {
+    margin: 0 8%;
+  }
+
+  .contact-wrap {
+    margin-left: 23%;
+  }
+
+  .footer-text {
+    font-size: 1.25rem;
+  }
 }
 
 /* LAPTOPS & DESKTOPS */
 
 @media screen and (max-width: 1280px) {
- 
+  .contact-icon {
+    height: 10%;
+    width: 15%;
+    margin-top: 2%;
+  }
+  
+  .contact-info {
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    font-size: 1.25rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    font-size: 3rem;
+    margin-bottom: 2%;
+  }
+  
+  .contact-row {
+    margin-left: 8%;
+  }
+
+  span.contact-details {
+    margin: 0 8%;
+  }
+
+  .contact-wrap {
+    margin-left: 23%;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
 }
 
 /* TABLETS & IPADS */
 
 @media screen and (max-width: 1024px) {
+  .contact-icon {
+    height: 10%;
+    width: 15%;
+    margin-top: 2%;
+  }
   
+  .contact-info {
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    font-size: 1.5rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    font-size: 4rem;
+    margin-bottom: 2%;
+  }
+  
+  .contact-row {
+    margin-left: 8%;
+  }
+
+  span.contact-details {
+    margin: 0 8%;
+  }
+
+  .contact-wrap {
+    margin-left: 23%;
+  }
+
+  .footer-text {
+    font-size: 1.25rem;
+  }
 }
 
 /* MOBILE (LANDSCAPE) */
 
 @media screen and (max-width: 768px) {
+  .contact-icon {
+    height: 10%;
+    width: 15%;
+    margin-top: 2%;
+  }
   
+  .contact-info {
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    font-size: 1rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    font-size: 3rem;
+    margin-bottom: 2%;
+  }
+  
+  .contact-row {
+    margin-left: 8%;
+  }
+
+  span.contact-details {
+    margin: 0 8%;
+  }
+
+  .contact-wrap {
+    margin-left: 15%;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
 }
 
 /* MOBILE (PORTRAIT) */
 
 @media screen and (max-width: 480px) {
+  .contact-icon {
+    height: 10%;
+    width: 15%;
+    margin-top: 2%;
+  }
   
+  .contact-info {
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    font-size: 0.75rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    font-size: 2rem;
+    margin-bottom: 2%;
+  }
+  
+  .contact-row {
+    margin-left: 8%;
+  }
+
+  span.contact-details {
+    margin: 0 8%;
+  }
+
+  .contact-wrap {
+    margin-left: 15%;
+  }
+
+  .footer-text {
+    font-size: 0.75rem;
+  }
 }
 
 /******* FOOTER SECTION *******/
