@@ -973,39 +973,341 @@ p {
 /* DESKTOPS */
 
 @media screen and (max-width: 2560px) {
+  .projects {
+    margin-top: 5%;
+    font-size: 5rem;
+  }
   
+  .project-container {
+    margin: 6% 0 10% 0;
+  }
+  
+  h4 {
+    font-size: 5rem;
+  }
+
+  b.proj-title {
+    font-size: 4rem;
+  }
+  
+  p.card-des {
+    font-size: 2rem;
+  }
+  
+  .title-fe {
+    margin: 10% 0 5% 0;
+    height: 30%;
+  }
+  
+  .title-be {
+    margin: 7% 0 5% 0;
+  }
+  
+  .title-mvp {
+    margin: 10% 0 5% 0;
+  }
+  
+  p.demo, p.github {
+    font-size: 2.5rem;
+  }
+
+  .card-info {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 1920px) {
+  .projects {
+    margin-top: 6%;
+    font-size: 5rem;
+  }
   
+  .project-container {
+    margin: 6% 0 10% 0;
+  }
+  
+  h4 {
+    font-size: 4rem;
+  }
+
+  b.proj-title {
+    font-size: 3rem;
+  }
+  
+  p.card-des {
+    font-size: 1.5rem;
+  }
+  
+  .title-fe {
+    margin: 10% 0 5% 0;
+    height: 30%;
+  }
+  
+  .title-be {
+    margin: 7% 0 5% 0;
+  }
+  
+  .title-mvp {
+    margin: 10% 0 5% 0;
+  }
+  
+  p.demo, p.github {
+    font-size: 2rem;
+  }
+
+  .card-info {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 1600px) {
+  .projects {
+    margin-top: 6%;
+    font-size: 4rem;
+  }
   
+  .project-container {
+    margin: 5% 0 10% 0;
+  }
+  
+  h4 {
+    font-size: 3.25rem;
+  }
+
+  b.proj-title {
+    font-size: 2.5rem;
+  }
+  
+  p.card-des {
+    font-size: 1.25rem;
+  }
+  
+  .title-fe {
+    margin: 10% 0 5% 0;
+    height: 30%;
+  }
+  
+  .title-be {
+    margin: 7% 0 5% 0;
+  }
+  
+  .title-mvp {
+    margin: 10% 0 5% 0;
+  }
+  
+  p.demo, p.github {
+    font-size: 1.5rem;
+  }
+
+  .card-info {
+    font-size: 1.5rem;
+  }
 }
 
 /* LAPTOPS & DESKTOPS */
 
 @media screen and (max-width: 1280px) {
- 
+  .projects {
+    margin-top: 8%;
+    font-size: 3rem;
+  }
+  
+  .project-container {
+    margin: 4% 0 10% 0;
+  }
+  
+  h4 {
+    font-size: 2.75rem;
+  }
+
+  b.proj-title {
+    font-size: 2rem;
+  }
+  
+  p.card-des {
+    font-size: 1rem;
+  }
+  
+  .title-fe {
+    margin: 15% 0 5% 0;
+    height: 30%;
+  }
+  
+  .title-be {
+    margin: 11% 0 5% 0;
+  }
+  
+  .title-mvp {
+    margin: 15% 0 5% 0;
+  }
+  
+  p.demo, p.github {
+    font-size: 1.25rem;
+  }
+
+  .card-info {
+    font-size: 1.25rem;
+  }
 }
 
 /* TABLETS & IPADS */
 
 @media screen and (max-width: 1024px) {
+  .projects {
+    margin-top: 9%;
+    font-size: 2.5rem;
+  }
   
+  .project-container {
+    margin: 4% 0 10% 0;
+  }
+  
+  h4 {
+    font-size: 2.3rem;
+  }
+
+  b.proj-title {
+    font-size: 2rem;
+  }
+  
+  p.card-des {
+    font-size: 1rem;
+  }
+  
+  .title-fe {
+    margin: 15% 0 5% 0;
+    height: 30%;
+  }
+  
+  .title-be {
+    margin: 11% 0 5% 0;
+  }
+  
+  .title-mvp {
+    margin: 15% 0 5% 0;
+  }
+  
+  p.demo, p.github {
+    font-size: 1.1rem;
+  }
+
+  .card-info {
+    font-size: 1.25rem;
+  }
 }
 
 /* MOBILE (LANDSCAPE) */
 
 @media screen and (max-width: 768px) {
+  .projects {
+    margin-top: 12%;
+    font-size: 2.25rem;
+  }
   
+  .project-container {
+    margin: 4% 0 10% 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 20% 5% 20%;
+  }
+  
+  h4 {
+    font-size: 2.3rem;
+  }
+
+  b.proj-title {
+    font-size: 2.5rem;
+  }
+  
+  p.card-des {
+    font-size: 1.25rem;
+  }
+
+  h5.techstack {
+    font-size: 1.5rem;
+  }
+  
+  .title-fe {
+    margin: 15% 0 5% 0;
+    height: 30%;
+  }
+  
+  .title-be {
+    margin: 11% 0 5% 0;
+  }
+  
+  .title-mvp {
+    margin: 15% 0 5% 0;
+  }
+
+  .card-be {
+    margin-left: 0;
+  }
+  
+  p.demo, p.github {
+    font-size: 1.1rem;
+  }
+
+  .card-info {
+    font-size: 1.25rem;
+  }
 }
 
 /* MOBILE (PORTRAIT) */
 
 @media screen and (max-width: 480px) {
+  .projects {
+    margin-top: 12%;
+    font-size: 2.25rem;
+  }
   
+  .project-container {
+    margin: 4% 0 10% 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 20% 5% 20%;
+  }
+  
+  h4 {
+    font-size: 2rem;
+  }
+
+  b.proj-title {
+    font-size: 2rem;
+  }
+  
+  p.card-des {
+    font-size: 1rem;
+  }
+
+  h5.techstack {
+    font-size: 1.5rem;
+  }
+  
+  .title-fe {
+    margin: 15% 0 5% 0;
+    height: 30%;
+  }
+  
+  .title-be {
+    margin: 11% 0 5% 0;
+  }
+  
+  .title-mvp {
+    margin: 15% 0 5% 0;
+  }
+
+  .card-be {
+    margin-left: 0;
+  }
+  
+  p.demo, p.github {
+    font-size: 1rem;
+  }
+
+  .card-info {
+    font-size: 1.25rem;
+  }
 }
 
 /******* CONTACT SECTION *******/
